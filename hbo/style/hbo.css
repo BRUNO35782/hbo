@@ -1,0 +1,138 @@
+
+     
+
+     Body{
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #0F0F0F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    
+     }
+    #cabeçalho{
+        margin-top: 40px;
+        
+     }
+     
+     header{
+    font-family: 'Inter';
+    font-style: normal;
+    color:white;    
+    text-align: center;
+    margin:50px;
+
+}
+    
+
+    #pergunta {
+       align-items: center;
+       text-align: center;
+       
+
+    }
+
+     header img{
+        width: 100px;
+        height: 20px;
+        left: 673px;
+        top: 25px;
+        margin-left: 5px;
+        
+
+     }
+     form{
+    font-family: 'Inter';
+    font-style: normal;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    font-size:8pt;
+}
+form input{
+    height:30px;
+    border-radius: 25px;
+    border:0px;
+    margin:5px 0px 20px 0px;
+    background-color: #7F7F7F;
+    
+}
+#submit1[type="submit"]{
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 25px;
+    color:white;
+    box-sizing: border-box;
+    background: #8C77E0;
+    border: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 214px;
+    height: 40px;
+    left: 649px;
+    top: 650px;
+    margin-left: 100px;
+   
+    
+
+}
+
+ul{ margin-right: 30px;
+    list-style-type:none;
+    color: white;
+    
+ }
+ a{
+    color: white;
+    text-decoration-line: none;
+ }
+#submit2[type="submit"]{
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 25px;
+    color:white;
+    box-sizing: border-box;
+    background: #8C77E0;
+    border: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 40px;
+    left: 800px;
+    top: 650px;
+    margin-left: 55px;
+}
+
+
+#email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+
+#senha{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+@media screen and (max-width:480px){
+    form{
+        width:250px;
+    }
+}
+
