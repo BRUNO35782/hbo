@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000D6;
+    color: white;
+    font-family: Raleway;
+    ;
+}
+#gradeh1{
+    text-align: center;
+    padding: 1px;
+}
+#título1{
+    margin-top: 20%;
+}
+
+#título2{
+    margin-bottom: 3%;
+    margin-top: 1px;
+}
+
+.absolute{
+ 
+ position: absolute;
+ 
+ bottom: 255px;
+ 
+ 
+}
+
+
+
+#formulário{
+    background-color: #CA7900;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 30px;
+    
+    
+}
+#sim{
+    margin-left: 20pt;
+    margin-right: 50pt;
+    border: 4px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    color: #F5F5F5;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+    
+    
+
+}
+
+#não{
+    margin-left: 10pt;
+    border: 4px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    color: #F5F5F5;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+}
+
+#submit{
+    
+    margin-top: 30pt;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+    margin-right: 30px;
+    
+
+
+}
+
+input{
+    background-color: #CA7900;
+    width: 20%;
+    border-color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    
+}
+
+img{
+   margin-top: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}

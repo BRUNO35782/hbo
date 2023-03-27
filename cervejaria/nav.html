@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="style2.css" text="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="menu1">
+            <div id="botões">
+            <a href="">A cervejaria </a>
+            <a href="">Nossas Cervejas</a>
+            <a href="">Delivery</a>
+            </div>
+            
+            <div id="carrinho">
+            <a href="">Meu Carrinho</a>
+            <img src="img/img2.svg">
+            </div>
+    </nav>
+    <div id="texto">
+        <div id="texto2">
+    <a id="resposta"></a>
+        </div>
+</div>
+<div id="botão">
+    <form action="" method="get">
+        <input value="entrar no site" id="Entrar"type=submit>
+
+    </form>
+
+</div>
+    <script>
+        var resposta = localStorage.getItem("resposta");
+        var mensagem = "";
+
+        if(resposta === "sim"){
+            mensagem = "Olá! Gostaria de te dar boas vindas a Cervejaria do Pericles. <br> Aqui você encontrará as melhores bebidas do Brasil!"
+            document.getElementById("Entrar").innerHTML = "Entrar no Site"
+        }
+        
+         else {
+            mensagem = "Sinto muito, mas este site só é permitido para maiores de 18 anos! :("
+            document.getElementById("Entrar").innerHTML = "Voltar"
+        }
+
+        document.getElementById("resposta").innerHTML = mensagem;
+    </script>
+
+
+</body>
+</html>
